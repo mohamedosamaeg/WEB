@@ -1,52 +1,264 @@
 body{
     font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0em;
-    font-family: sofia-pro;
-    font-weight: 400;
+    line-height: 1.6em;
+    font-family: ivypresto-text;
+    font-weight: 100;
     font-style: normal;
     font-size: 13.5px;
-    letter-spacing: .04em;
-    line-height: 1.6em;
+    letter-spacing: .015em;
+    line-height: 1.5em;
+    text-transform: none;
+    background-color: cornsilk;
+}
+
+header{        -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    font-family: ivypresto-text;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13.5px;
+    letter-spacing: .015em;
+    line-height: 1.5em;
     text-transform: none;
     color: #3d3d3d;
-   
-   
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
 }
-header{
-    background-color: rgb(216, 187, 142);
-}
-img{
-    
-    -webkit-text-size-adjust: 100%;
+#logo{
+
+    -webkit-text-size-adjust: 80%;
     pointer-events: auto;
-    font-family: sofia-pro;
-    font-weight: 400;
+    font-family: ivypresto-text;
+    font-weight: 100px;
     font-style: normal;
     font-size: 13.5px;
-    letter-spacing: .04em;
     text-transform: none;
     -webkit-font-smoothing: subpixel-antialiased;
     text-align: center;
     color: inherit;
     line-height: 0;
-    border: 0;
-    width: 100%;
+    border: 5px;
+    width: 100px;
     max-width: 320px;
 }
-.btnright{
--webkit-text-size-adjust: 100%;
-pointer-events: auto;
-color: #3d3d3d;
--webkit-font-smoothing: subpixel-antialiased;
-text-align: right;
-line-height: 1em;
-font-family: commuters-sans;
-font-weight: 400;
-font-style: normal;
-font-size: 12px;
-letter-spacing: .2em;
-text-transform: uppercase;
-white-space: normal;
-margin: -.618em -2.96em;
+#contact{
+   
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: right;
+    line-height: 1em;
+    font-family: commuters-sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: normal;
+    text-decoration: none;
+    border-bottom: none !important;
+    transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+    display: inline-block;
+    vertical-align: middle;
+    background: #e9d5c4;
+    padding: 10px 10px 10px 10px !important;
+    color: #ecbbbb;
+    margin: 0 2.96em;}
+#firsttextright{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: commuters-sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.5px;
+    letter-spacing: .17em;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    hyphens: manual !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: right;
+    white-space: pre-wrap;
+}
+
+    h1{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+    margin: .67em 0;
+    text-rendering: optimizeLegibility;
+    font-family: ivymode;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: .04em;
+    line-height: 1.05em;
+    text-transform: none;
+    color: #3d3d3d;
+    hyphens: manual !important;
+    margin-top: 0;
+    white-space: pre-wrap;}
+
+     
+    #photos{
+        -webkit-text-size-adjust: 100%;
+        pointer-events: auto;
+        font-family: ivypresto-text;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 13.5px;
+        letter-spacing: .015em;
+        line-height: 1.5em;
+        text-transform: none;
+        color: #3d3d3d;
+        -webkit-font-smoothing: subpixel-antialiased;
+        width: auto !important;
+       
+    
+    }
+    #firstdiv{
+        
+        -webkit-text-size-adjust: 100%;
+        pointer-events: auto;
+        font-family: ivypresto-text;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 13.5px;
+        letter-spacing: .015em;
+        text-transform: none;
+        color: #3d3d3d;
+        -webkit-font-smoothing: subpixel-antialiased;
+        line-height: 0;
+        text-align: center;
+        border: 0;
+        display: block;
+        position: left;
+        top: 0;
+        left: 0;
+        max-width: none;
+        width: 400px;
+    }
+#seconddiv{
+    -webkit-text-size-adjust: 100%;
+        pointer-events: auto;
+        font-family: ivypresto-text;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 13.5px;
+        letter-spacing: .015em;
+        text-transform: none;
+        color: #3d3d3d;
+        -webkit-font-smoothing: subpixel-antialiased;
+        line-height: 0;
+        text-align: center;
+        border: 0;
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        max-width: none;
+        width: 300px;
+}
+   
+    
+    #photoone{
+        -webkit-text-size-adjust: 10%;
+        pointer-events: auto;
+        font-family: ivypresto-text;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 13.5px;
+        letter-spacing: .015em;
+        text-transform: none;
+        color: #3d3d3d;
+        -webkit-font-smoothing: subpixel-antialiased;
+        line-height: 0;
+        text-align: center;
+        border: 0;
+        display: block;
+        
+        top: 0;
+        left: 0;
+        max-width: none;
+        width: 100%; 
+    }
+    #phototwo
+    {
+        -webkit-text-size-adjust: 100%;
+        pointer-events: auto;
+        font-family: ivypresto-text;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 13.5px;
+        letter-spacing: .015em;
+        text-transform: none;
+        color: #3d3d3d;
+        -webkit-font-smoothing: subpixel-antialiased;
+        line-height: 0;
+        text-align: center;
+        border: 0;
+        display: block;
+       
+        top: 0;
+        left: 0;
+        max-width: none;
+        width: 100%;
+    }
+h6,h5,#lastp{
+    text-align: center;
+}   
+#bvp{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-family: sofia-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .02em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #3d3d3d;
+    margin-top: 0;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+}
+#photothree{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    font-family: ivypresto-text;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: .015em;
+    line-height: 1.5em;
+    text-transform: none;
+    color: #3d3d3d;
+    -webkit-font-smoothing: subpixel-antialiased;
+    white-space: nowrap;
+    text-align: center;
+    border: 0;
+    opacity: 1;
+    font-size: 0px;
+    left: 0px;
+    top: -91px;
+    width: 610px;
+    height: 610px;
+    position: relative;
 }
