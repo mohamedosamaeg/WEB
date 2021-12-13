@@ -11,7 +11,7 @@ body{
     letter-spacing: .015em;
     line-height: 1.5em;
     text-transform: none;
-    background-color: cornsilk;
+    background-color: rgb(238, 226, 180);
 }
 
 header{        -webkit-text-size-adjust: 100%;
@@ -178,68 +178,31 @@ header{        -webkit-text-size-adjust: 100%;
    
     
     #photoone{
-        -webkit-text-size-adjust: 10%;
-        pointer-events: auto;
-        font-family: ivypresto-text;
-        font-weight: 100;
-        font-style: normal;
-        font-size: 13.5px;
-        letter-spacing: .015em;
-        text-transform: none;
-        color: #3d3d3d;
-        -webkit-font-smoothing: subpixel-antialiased;
-        line-height: 0;
-        text-align: center;
-        border: 0;
-        display: block;
-        
-        top: 0;
-        left: 0;
-        max-width: none;
-        width: 100%; 
+        size: 800px;
+        text-align: left;
+        width: 500px;
+        margin-right: 10cm;
+        border-radius: 10px;
+        width: 610px;
+        height: 610px;
     }
     #phototwo
     {
-        -webkit-text-size-adjust: 100%;
-        pointer-events: auto;
-        font-family: ivypresto-text;
-        font-weight: 100;
-        font-style: normal;
-        font-size: 13.5px;
-        letter-spacing: .015em;
-        text-transform: none;
-        color: #3d3d3d;
-        -webkit-font-smoothing: subpixel-antialiased;
-        line-height: 0;
-        text-align: center;
-        border: 0;
-        display: block;
-       
-        top: 0;
-        left: 0;
-        max-width: none;
-        width: 100%;
+        size: 800px;
+        text-align: right;
+        width: 500px;
+        margin-left: 22cm;
+        border-radius: 10px;
+        width: 610px;
+        height: 610px;
     }
 h6,h5,#lastp{
     text-align: center;
+    margin: 20px;
 }   
-#bvp{
-    -webkit-text-size-adjust: 100%;
-    pointer-events: auto;
-    -webkit-font-smoothing: antialiased;
-    text-align: center;
-    font-family: sofia-pro;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    letter-spacing: .02em;
-    line-height: 1.6em;
-    text-transform: none;
-    color: #3d3d3d;
-    margin-top: 0;
-    margin-bottom: 0;
-    white-space: pre-wrap;
-}
+
+    
+
 #photothree{
     -webkit-text-size-adjust: 100%;
     pointer-events: auto;
@@ -252,13 +215,35 @@ h6,h5,#lastp{
     color: #3d3d3d;
     -webkit-font-smoothing: subpixel-antialiased;
     white-space: nowrap;
-    text-align: center;
-    border: 0;
+    text-align: left !important;
+    border: 2px;
     opacity: 1;
     font-size: 0px;
-    left: 0px;
-    top: -91px;
+    left: 22cm;
+    bottom: 10cm;
     width: 610px;
     height: 610px;
     position: relative;
+    
+}
+section{
+    
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    font-family: sofia-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .02em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #3d3d3d;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    white-space: pre-wrap;
+    right: 20 cm;
+    left: 15cm;
 }
